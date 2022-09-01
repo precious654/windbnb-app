@@ -1,7 +1,12 @@
+import React from "react";
+import Header from "./Header";
+import Body from "./Body";
+
 function App() {
   return (
     <div className="App">
-      <p>Hello world</p>
+      <Header />
+      <Body />
     </div>
   );
 }
