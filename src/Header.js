@@ -1,17 +1,14 @@
 import React from "react";
 import logo from "./images/logo.svg";
-import search from "./images/search.svg"
-import stay from "./stays.json";
+import search from "./images/search.svg";
 
 function Header() {
-
-  console.log( stay );
 
   let[formData, setFormData] = React.useState({
     location:"",
     guests:""
   })
-console.log( formData );
+  
   function handleChange(event) {
     let{name, value} = event.target;
     setFormData( (prevState) => {

@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 body{
   inline-size: 90%;
   margin: auto;
@@ -70,4 +75,71 @@ header{
     }
   }
 
+  .content{
+    margin-block-start: 1.5rem;
+  }
+
+}
+
+.card{
+  font-family: 'Montserrat', sans-serif;
+  margin-block-start: 3rem;
+
+  .photo{
+    border-radius: 15px;
+    block-size: 300px;
+  }
+
+  .superhost{
+    border: 1px solid #4F4F4F;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+
+  .type{
+    color: #828282;
+    font-size: 12px;
+    margin-inline-start: 0.15rem;
+  }
+
+  .stars{
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .rating{
+    color: #4F4F4F;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 1.2rem;
+  }
+
+  .title{
+    margin-block-start: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+footer{
+  margin-block-start: 5rem;
+  text-align: center;
+
+  p{
+    font-size: 10px;
+    color: #828282;
+    font-family: 'Montserrat', sans-serif;
+
+    a{
+      text-decoration: none;
+      font-weight: bold;
+      color: inherit;
+    }
+  }
 }
