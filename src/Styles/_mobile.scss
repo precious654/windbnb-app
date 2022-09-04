@@ -1,0 +1,22 @@
+@media (max-width: 783px) {
+
+  header{
+
+    .inputs{
+      margin-block-start: 2rem;
+      margin-inline-start: 2rem;
+    }
+
+    .search-icon{
+      position: absolute;
+      right: 3.7rem;
+      top: 0.4rem;
+    }
+  }
+
+  .body{
+    p{
+      margin-block-start: 1rem;
+    }
+  }
+}
